@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinderAdvisor Abbonamenti Scontati</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="TinderAdvisor Logo" class="logo">
+        <h1>TinderAdvisor</h1>
+        <p>Ti aiutiamo a ottenere più match e attivare l'abbonamento giusto, a un prezzo ridotto.</p>
+    </header>
+
+    <section class="piani">
+        <h2>Scegli il tuo piano scontato</h2>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='img/plus.jpg') }}" alt="Tinder Plus">
+            <h3>Tinder Plus</h3>
+            <ul>
+                <li>Swipe illimitati</li>
+                <li>Rewind e Passport</li>
+                <li>No pubblicità</li>
+            </ul>
+            <p class="prezzo">Solo 7 EUR</p>
+            <a href="https://t.me/TinderAdvisor" target="_blank" class="btn">Acquista ora</a>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='img/gold.jpg') }}" alt="Tinder Gold">
+            <h3>Tinder Gold</h3>
+            <ul>
+                <li>Vedi chi ti ha likato</li>
+                <li>5 SuperLike a settimana</li>
+                <li>1 Boost al mese</li>
+            </ul>
+            <p class="prezzo">Solo 11 EUR</p>
+            <a href="https://t.me/TinderAdvisor" target="_blank" class="btn">Acquista ora</a>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='img/platinum.jpg') }}" alt="Tinder Platinum">
+            <h3>Tinder Platinum</h3>
+            <ul>
+                <li>Like prioritari</li>
+                <li>Messaggia prima del match</li>
+                <li>Visibilità massima</li>
+            </ul>
+            <p class="prezzo">Solo 15 EUR</p>
+            <a href="https://t.me/TinderAdvisor" target="_blank" class="btn">Acquista ora</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Creato con amore da TinderAdvisor. Nessun abbonamento automatico. Codice digitale via Telegram.</p>
+    </footer>
+</body>
+</html>
