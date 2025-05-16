@@ -26,16 +26,16 @@ git push origin main
 <body>
     <header>
         <img src="{{ url_for('static', filename='img/logo.png') }}" alt="TinderAdvisor Logo" class="logo">
-        <h1>🔥 TinderAdvisor</h1>
+        <h1> TinderAdvisor</h1>
         <p>Ti aiutiamo a ottenere più match e attivare l'abbonamento giusto, a un prezzo ridotto.</p>
     </header>
 
     <section class="piani">
-        <h2>💸 Scegli il tuo piano scontato</h2>
+        <h2> Scegli il tuo piano scontato</h2>
 
         <div class="card">
             <img src="{{ url_for('static', filename='img/plus.jpg') }}" alt="Tinder Plus">
-            <h3>🔥 Tinder Plus</h3>
+            <h3> Tinder Plus</h3>
             <ul>
                 <li>Swipe illimitati</li>
                 <li>Rewind & Passport</li>
@@ -47,7 +47,7 @@ git push origin main
 
         <div class="card">
             <img src="{{ url_for('static', filename='img/gold.jpg') }}" alt="Tinder Gold">
-            <h3>✨ Tinder Gold</h3>
+            <h3> Tinder Gold</h3>
             <ul>
                 <li>Vedi chi ti ha likato</li>
                 <li>5 SuperLike a settimana</li>
@@ -59,7 +59,7 @@ git push origin main
 
         <div class="card">
             <img src="{{ url_for('static', filename='img/platinum.jpg') }}" alt="Tinder Platinum">
-            <h3>💎 Tinder Platinum</h3>
+            <h3> Tinder Platinum</h3>
             <ul>
                 <li>Like prioritari</li>
                 <li>Messaggia prima del match</li>
@@ -71,7 +71,7 @@ git push origin main
     </section>
 
     <footer>
-        <p>Creato con ❤️ da TinderAdvisor. Nessun abbonamento automatico. Codice digitale via Telegram.</p>
+        <p>Creato con amore da TinderAdvisor. Nessun abbonamento automatico. Codice digitale via Telegram.</p>
     </footer>
 </body>
 </html>
