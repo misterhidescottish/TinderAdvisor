@@ -20,7 +20,7 @@ git push origin main
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TinderAdvisor – Abbonamenti Scontati</title>
+    <title>TinderAdvisor Abbonamenti Scontati</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
