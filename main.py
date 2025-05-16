@@ -41,7 +41,7 @@ git push origin main
                 <li>Rewind & Passport</li>
                 <li>No pubblicità</li>
             </ul>
-            <p class="prezzo">Solo 7€</p>
+            <p class="prezzo">Solo 7 euro</p>
             <a href="https://t.me/TinderAdvisor" target="_blank" class="btn">Acquista ora</a>
         </div>
 
@@ -53,7 +53,7 @@ git push origin main
                 <li>5 SuperLike a settimana</li>
                 <li>1 Boost al mese</li>
             </ul>
-            <p class="prezzo">Solo 11€</p>
+            <p class="prezzo">Solo 11 euro</p>
             <a href="https://t.me/TinderAdvisor" target="_blank" class="btn">Acquista ora</a>
         </div>
 
@@ -65,7 +65,7 @@ git push origin main
                 <li>Messaggia prima del match</li>
                 <li>Visibilità massima</li>
             </ul>
-            <p class="prezzo">Solo 15€</p>
+            <p class="prezzo">Solo 15 euro</p>
             <a href="https://t.me/TinderAdvisor" target="_blank" class="btn">Acquista ora</a>
         </div>
     </section>
