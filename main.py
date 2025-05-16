@@ -27,7 +27,7 @@ git push origin main
     <header>
         <img src="{{ url_for('static', filename='img/logo.png') }}" alt="TinderAdvisor Logo" class="logo">
         <h1> TinderAdvisor</h1>
-        <p>Ti aiutiamo a ottenere più match e attivare l'abbonamento giusto, a un prezzo ridotto.</p>
+        <p>Ti aiutiamo a ottenere più match e attivare un abbonamento giusto, a un prezzo ridotto.</p>
     </header>
 
     <section class="piani">
